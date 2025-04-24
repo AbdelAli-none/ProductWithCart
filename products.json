@@ -1,0 +1,225 @@
+[
+  {
+    "id": "1",
+    "title": "Wireless Headphones",
+    "description": "Noise-canceling, over-ear headphones with long battery life.",
+    "image": "headset.png",
+    "category": "Electronics",
+    "price": 199.99,
+    "discount": 5,
+    "rating": 4.8
+  },
+  {
+    "id": "2",
+    "title": "Cotton T-Shirt",
+    "description": "Soft, breathable 100% cotton t-shirt.",
+    "image": "shirt.png",
+    "category": "Clothing",
+    "price": 15.99,
+    "rating": 3.5
+  },
+  {
+    "id": "3",
+    "title": "Steel Water Bottle",
+    "description": "Insulated water bottle, keeps drinks cold for 24 hours.",
+    "image": "water.png",
+    "category": "Home & Kitchen",
+    "price": 22.5,
+    "rating": 5
+  },
+  {
+    "id": "4",
+    "title": "Leather Wallet",
+    "description": "Genuine leather wallet with multiple card slots, with 2 years guarantee.",
+    "image": "leather-backpack.png",
+    "category": "Accessories",
+    "price": 49.99,
+    "rating": 2.2
+  },
+  {
+    "id": "5",
+    "title": "Coffee Beans",
+    "description": "Premium Arabica coffee beans, medium roast, (Colombia).",
+    "image": "coffee-bag.png",
+    "category": "Food & Beverage",
+    "price": 12.0,
+    "rating": 4.1
+  },
+  {
+    "id": "6",
+    "title": "Smartwatch",
+    "description": "Fitness tracker with heart rate monitor and GPS (Watertight).",
+    "image": "smart-watch.png",
+    "category": "Electronics",
+    "price": 249.0,
+    "discount": 50,
+    "rating": 3.9
+  },
+  {
+    "id": "7",
+    "title": "Running Shoes",
+    "description": "Lightweight and comfortable running shoes (Original).",
+    "image": "running-shoe.png",
+    "category": "Clothing",
+    "price": 79.95,
+    "rating": 1.7
+  },
+  {
+    "id": "8",
+    "title": "Cookbook",
+    "description": "Delicious Chinese recipes from around the world 2020 (New Version).",
+    "image": "cookbook.png",
+    "category": "Books",
+    "price": 25.0,
+    "discount": 33,
+    "rating": 4.5
+  },
+  {
+    "id": "9",
+    "title": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with rich sound system (400% up).",
+    "image": "portable-speaker.png",
+    "category": "Electronics",
+    "price": 59.99,
+    "discount": 17,
+    "rating": 2.8
+  },
+  {
+    "id": "10",
+    "title": "Denim Jeans",
+    "description": "Classic denim jeans, comfortable fit, Leather (Rainproof).",
+    "image": "jeans.png",
+    "category": "Clothing",
+    "price": 39.99,
+    "rating": 5
+  },
+  {
+    "id": "11",
+    "title": "Ceramic Mug",
+    "description": "Large ceramic mug for coffee or tea, with a small gift.",
+    "image": "mug.png",
+    "category": "Home & Kitchen",
+    "price": 9.99,
+    "rating": 3.3
+  },
+  {
+    "id": "12",
+    "title": "Sunglasses",
+    "description": "UV protection sunglasses, stylish design - Outdoor style.",
+    "image": "sunglasses.png",
+    "category": "Accessories",
+    "price": 29.99,
+    "rating": 4.9
+  },
+  {
+    "id": "13",
+    "title": "Organic Tea",
+    "description": "Variety pack of organic herbal teas - USDA certified organic.",
+    "image": "hot-tea.png",
+    "category": "Food & Beverage",
+    "price": 10.5,
+    "rating": 1.1
+  },
+  {
+    "id": "14",
+    "title": "Tablet",
+    "description": "10-inch tablet with high-resolution display - Expandable storage.",
+    "image": "tablet.png",
+    "category": "Electronics",
+    "price": 299.0,
+    "rating": 4.0
+  },
+  {
+    "id": "15",
+    "title": "Yoga Pants",
+    "description": "Comfortable and flexible yoga pants - Comfortable and flexible yoga leggings.",
+    "image": "yoga-pants.png",
+    "category": "Clothing",
+    "price": 24.99,
+    "discount": 18,
+    "rating": 2.5
+  },
+  {
+    "id": "16",
+    "title": "Cutting Board",
+    "description": "Bamboo cutting board, durable and eco-friendly (Original).",
+    "image": "cutting-board.png",
+    "category": "Home & Kitchen",
+    "price": 18.0,
+    "rating": 3.7
+  },
+  {
+    "id": "17",
+    "title": "Leather Belt",
+    "description": "Premium genuine leather belt with a timeless classic buckle.",
+    "image": "leather-belt.png",
+    "category": "Accessories",
+    "price": 35.0,
+    "rating": 4.6
+  },
+  {
+    "id": "18",
+    "title": "Dark Chocolate",
+    "description": "Fine dark chocolate with an exceptional, complex, and silky texture.",
+    "image": "dark-chocolate.png",
+    "category": "Food & Beverage",
+    "price": 7.5,
+    "rating": 1.9
+  },
+  {
+    "id": "19",
+    "title": "Laptop",
+    "description": "15-inch laptop with powerful processor and ample storage.",
+    "image": "laptop.png",
+    "category": "Electronics",
+    "price": 899.0,
+    "discount": 28,
+    "rating": 5
+  },
+  {
+    "id": "20",
+    "title": "Hoodie",
+    "description": "Gentle material, warm and comfortable hooded sweatshirt.",
+    "image": "hoodie.png",
+    "category": "Clothing",
+    "price": 45.0,
+    "rating": 3.0
+  },
+  {
+    "id": "21",
+    "title": "Leather Card Holder",
+    "description": "Luxury leather card carrier with an uncluttered, streamlined design.",
+    "image": "slim-card-holder.jpg",
+    "category": "Wallets",
+    "price": 35.0,
+    "rating": 4.8
+  },
+  {
+    "id": "22",
+    "title": "Clockwork Mansion",
+    "description": "A thrilling detective novel set in Victorian England.",
+    "image": "book_icon.png",
+    "category": "Books",
+    "price": 18.5,
+    "discount": 20,
+    "rating": 4.2
+  },
+  {
+    "id": "23",
+    "title": "Slim Leather Wallet",
+    "description": "Minimalist leather card and cash holder.",
+    "image": "wallet_icon.png",
+    "category": "Wallets",
+    "price": 29.99,
+    "rating": 4.6
+  },
+  {
+    "id": "24",
+    "title": "Ceramic Coffee Mug",
+    "description": "Durable 12oz ceramic mug for your favorite hot beverages.",
+    "image": "mug_icon.png",
+    "category": "Home & Kitchen",
+    "price": 8.99,
+    "rating": 4.0
+  }
+]

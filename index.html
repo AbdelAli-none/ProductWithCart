@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Doto:wght@100..900&family=Honk&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=M+PLUS+Rounded+1c&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Moonrocks&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>App #09 - Products With Cart</title>
+</head>
+<body>
+
+  <div class="main">
+    <div class="container">
+    <div class="scroll-icon">
+      <i class="fa-solid fa-arrow-up toUp"></i>
+    </div>
+    <header>
+      <div class="logo">
+        <h2><span>U</span>buy</h2>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" class="searchBar" placeholder="What are you looking for? e.g: sunglasses">
+        <button>Search</button>
+      </div>
+
+      <div class="right-side">
+        <ul class="sign-login">
+          <li>
+            <a href="sign.html">Sign</a>
+          </li>
+
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+        </ul>
+        <div class="theme-icon">
+          <div class="navigator"></div>
+          <i style="color: var(--light-card);" class="active lightTheme fas fa-bolt"></i>
+          <i style="color: var(--light-text);" class="darkTheme fa-solid fa-moon"></i>
+        </div>
+      <div class="cart-icon">
+        <img src="./imgs/shopping-cart.png" alt="">
+      </div>
+      </div>
+    </header>
+    <div class="navbar"><ul class="navList"></ul></div>
+    <div class="content">
+      <div class="products"></div>
+      <div class="cart">
+        <ul class="sign-login">
+          <li>
+            <a href="sign.html">Sign</a>
+          </li>
+
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+        </ul>
+        
+        <h3><i class="fa-solid fa-cart-shopping"></i>Your Cart</h3>
+        <ul class="cart-items" id="cart-items"></ul>
+        <div class="total"><span>Total:</span> <span class="totalAmount">$0.00</span> </div>
+        <p class="secured">Secured Transactions <span><i class="fa-solid fa-lock"></i></span> </p>
+        <div class="partners-companies">
+          <div class="links">
+            <div>
+              <h3>Our Top Logistics Partners</h3>
+              <div class="logistique">
+                <a href="https://www.fedex.com" target="_blank">
+                  <img src="./imgs/fedex_logo.png" alt="FedEx Logo">
+                </a>
+                <a href="https://www.dhl.com" target="_blank">
+                  <img src="./imgs/dhl_icon.png" alt="DHL Logo">
+                </a>
+                <a href="https://www.usps.com" target="_blank">
+                  <img src="./imgs/usps_icon.png" alt="USPS Logo">
+                </a>
+              </div>
+            </div>
+            <div>
+              <h3>Payments Methods</h3>
+              <div class="payments">
+                <a href="https://usa.visa.com" target="_blank">
+                  <img src="./imgs/card_cash_icon.png" alt="Card Cash Icon">
+                </a>
+                <a href="https://www.mastercard.com" target="_blank">
+                  <img src="./imgs/mastercard_payment_icon.png" alt="Mastercard Logo">
+                </a>
+                <a href="https://pay.google.com" target="_blank">
+                  <img src="./imgs/google_gpay_icon.png" alt="Google Pay Logo">
+                </a>
+                <a href="https://www.apple.com/apple-pay/" target="_blank">
+                  <img src="./imgs/apple_logo.png" alt="Apple Pay Logo">
+                </a>
+                <a href="https://www.paypal.com" target="_blank">
+                  <img src="./imgs/paypal_icon.png" alt="PayPal Logo">
+                </a>
+                <a href="https://venmo.com" target="_blank">
+                  <img src="./imgs/venmo_icon.png" alt="Venmo Logo">
+                </a>
+              </div>
+            </div>
+          </div>
+          <code>Contractors For 5 Years</code>
+        </div>
+      </div>
+        <div class="features">
+        <h3>Why You Should Choose Us</h3>
+        <div class="features-list">
+          <div>
+            <i class="fa-solid fa-truck-fast"></i>
+            <span class="title">Fast <br> Shipping</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-rotate-left"></i>
+            <span class="title">Free <br> Return</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-hands-holding-circle"></i>
+            <span class="title">Sercure <br> Packaging</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-award"></i>
+            <span class="title">100% Original <br>Products</span>
+          </div>
+          <div>
+            <img class="pci-dss" src="./imgs/pci_dss.png" alt="">
+            <span class="title">PCI DSS <br>Compliance</span>
+          </div>
+          <div>
+            <img class="iso" src="./imgs/iso_logo.svg" alt="">
+            <span class="title">ISO 27001 <br>Certified</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="left">
+          <h2>Stay Connected</h2>
+        </div>
+        <div class="right">
+          <form>
+            <input type="email" placeholder="Get coupons, offers, and more" required>
+            <button type="submit">Subscribe <i class="fa-solid fa-angles-right"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer">
+        <code>Made By <i class="fa-regular fa-heart"></i> Ali</code>
+        <ul>
+          <li><a href="">Terms of Service</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Cookie Policy</a></li>
+          <li><a href="">Community Guidelines</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
